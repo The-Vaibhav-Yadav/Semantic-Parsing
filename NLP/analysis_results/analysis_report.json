@@ -1,0 +1,44 @@
+{
+  "exact_match_accuracy": 0.14,
+  "average_bleu": 0.5569549393541909,
+  "component_accuracy": {
+    "SELECT": 0.19999999999999996,
+    "FROM": 0.30000000000000004,
+    "WHERE": 0.64,
+    "GROUP BY": 0.83,
+    "HAVING": 1.0,
+    "ORDER BY": 0.88,
+    "LIMIT": 0.94
+  },
+  "complexity_accuracy": {
+    "simple": 0.05555555555555555,
+    "medium": 0.25,
+    "complex": 0.1206896551724138
+  },
+  "db_error_counts": {
+    "concert_singer": {
+      "select_error": 31,
+      "from_error": 19,
+      "order by_error": 6,
+      "where_error": 11,
+      "group by_error": 6,
+      "limit_error": 2
+    },
+    "pets_1": {
+      "select_error": 36,
+      "from_error": 38,
+      "order by_error": 4,
+      "limit_error": 2,
+      "group by_error": 7,
+      "where_error": 22
+    },
+    "car_1": {
+      "select_error": 13,
+      "from_error": 13,
+      "group by_error": 4,
+      "order by_error": 2,
+      "limit_error": 2,
+      "where_error": 3
+    }
+  }
+}

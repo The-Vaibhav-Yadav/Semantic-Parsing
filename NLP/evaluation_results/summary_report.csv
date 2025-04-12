@@ -1,0 +1,10 @@
+Metric,Value
+overall_accuracy,0.1
+original_accuracy,0.35
+variant_accuracy,0.05
+avg_consistency,0.08333333333333333
+avg_bleu_score,0.2572953411631747
+avg_char_similarity,0.6133295225737373
+robustness_score,0.7
+total_examples,18.0
+total_questions,120.0
