@@ -1,2 +1,2 @@
-NLP/models/t5_spider/model.safetensors filter=lfs diff=lfs merge=lfs -text
-NLP/models/t5_spider_checkpoint.pth filter=lfs diff=lfs merge=lfs -text
+NLP/spider_data/database/soccer_1/schema.sql filter=lfs diff=lfs merge=lfs -text
+NLP/spider_data/database/soccer_1/soccer_1.sqlite filter=lfs diff=lfs merge=lfs -text
